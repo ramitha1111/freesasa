@@ -1,6 +1,7 @@
 name: Run tests
 run-name: ${{ github.actor }} testing freesasa
 on:
+  workflow_dispatch:
   push:
     branches:
       - "master"
